@@ -19,7 +19,8 @@ const i18n = createI18n({
   __VUE_I18N_FULL_INSTALL__: false,
   locale: locale,
   fallbackLocale: 'zh-cn',
-  messages
+  messages,
+  legacy:false
 })
 document.querySelector('html').setAttribute('lang', locale)
 
